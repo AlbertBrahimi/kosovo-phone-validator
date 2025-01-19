@@ -1,0 +1,25 @@
+{
+  "name": "kosovo-phone-validator",
+  "version": "1.0.0",
+  "description": "A library for validating and normalizing Kosovo phone numbers.",
+  "main": "dist/index.js", 
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Albert Brahimi",
+  "license": "ISC",
+  "homepage": "https://github.com/your-username/kosovo-phone-validator#readme"
+}
