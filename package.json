@@ -33,7 +33,15 @@
   "homepage": "https://github.com/AlbertBrahimi/kosovo-phone-validator",
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "kosovo",
+    "phone",
+    "validator",
+    "phone-number",
+    "validation"
   ],
   "type": "module"
 }

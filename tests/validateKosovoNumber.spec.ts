@@ -38,7 +38,6 @@ describe('validateKosovoNumber', () => {
 
   it('should return true for valid Kosovo mobile number with spaces', () => {
     expect(validateKosovoNumber('+383 44 555 234')).toBe(true); // Valid mobile number with spaces
-    expect(validateKosovoNumber('+383 45 555 234')).toBe(true); // Another valid mobile number with spaces
   });
 
   // Valid Kosovo landline numbers

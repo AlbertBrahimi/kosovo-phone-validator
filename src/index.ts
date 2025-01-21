@@ -13,11 +13,11 @@ const validateKosovoNumber = (phoneNumber: string | null | undefined): boolean =
 
     // Ensure the number only contains digits, spaces, or a single leading "+" and no other non-numeric characters
     if (/[^+\d\s]/.test(phoneNumber)) {
-      return false; // Invalid if it contains any character other than digits, spaces, or "+"
+      return false; 
     }
 
     // Remove all non-numeric characters except for "+" and spaces
-    const sanitizedNumber = phoneNumber.replace(/[^+\d\s]/g, '').replace(/\s+/g, ' '); // Replace multiple spaces with one
+    const sanitizedNumber = phoneNumber.replace(/[^+\d\s]/g, '').replace(/\s+/g, ' '); 
 
     // Ensure the number contains exactly one + and it is at the beginning
     if (sanitizedNumber.indexOf('+') !== 0 || (sanitizedNumber.match(/\+/g) || []).length > 1) {
