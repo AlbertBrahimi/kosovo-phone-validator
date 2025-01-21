@@ -1,4 +1,4 @@
-# Kosovo Phone Number Validator
+# Kosovo Phone  Validator
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
