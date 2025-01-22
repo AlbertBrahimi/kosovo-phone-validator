@@ -24,7 +24,7 @@ It removes all non-numeric characters (except spaces or the leading `+`) and val
 - **Length Check**: Checks that the length of the local number (excluding the country code) is appropriate:
   - For mobile numbers: 8 digits.
   - For landline numbers: 8 or 9 digits.
-- **Whitespace Handling**: Automatically removes spaces between digits for validation, but spaces are allowed in the input (e.g., `+383 44 555 1234` is valid).
+- **Whitespace Handling**: Automatically removes spaces between digits for validation, but spaces are allowed in the input (e.g., `+383 44 555 333` is valid).
 - **No Dashes Allowed**: Does not allow dashes in the number (e.g., `+383-44-555-123` is invalid).
 
 ## Installation
