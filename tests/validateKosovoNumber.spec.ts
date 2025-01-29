@@ -73,4 +73,9 @@ describe('validateKosovoNumber', () => {
   it('should return true for valid Kosovo landline number with dashes', () => {
     expect(validateKosovoNumber('+383-28-555-1234')).toBe(false); // Dashes inside number
   });
+
+  it('should return true if number starts with 47 or 46', () => {
+    expect(validateKosovoNumber('+383 47 555 234')).toBe(true); // Valid mobile number
+    expect(validateKosovoNumber('+383 46 555 234')).toBe(true); // Valid mobile number
+  });
 });

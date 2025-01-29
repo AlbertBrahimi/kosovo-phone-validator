@@ -19,7 +19,7 @@ It removes all non-numeric characters (except spaces or the leading `+`) and val
 
 - **Format Validation**: Ensures that the phone number contains only valid digits or a single `+` sign at the beginning.
 - **Prefix Validation**: Validates mobile and landline prefixes based on Kosovo's telecommunication standards.
-  - **Mobile**: Valid prefixes are `44`, `45`, `49`, `43`, `48`.
+  - **Mobile**: Valid prefixes are `44`, `45`, `49`, `43`, `48`, `47`, `46`.
   - **Landline**: Valid prefixes include `38`, `28`, `39`, `290`, `280`, `29`.
 - **Length Check**: Checks that the length of the local number (excluding the country code) is appropriate:
   - For mobile numbers: 8 digits.

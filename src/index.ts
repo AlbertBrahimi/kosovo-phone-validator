@@ -7,7 +7,7 @@ const validateKosovoNumber = (phoneNumber: string | null | undefined): boolean =
     if (!phoneNumber) return false;
 
     const VALID_PREFIXES = {
-      MOBILE: new Set(['44', '45', '49', '43', '48']),
+      MOBILE: new Set(['44', '45', '49', '43', '48', '46', '47']),
       LANDLINE: new Set(['38', '28', '39', '290', '280', '29']),
     };
 
