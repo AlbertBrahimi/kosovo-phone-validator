@@ -1,6 +1,6 @@
 {
   "name": "kosovo-phone-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library for validating and normalizing Kosovo phone numbers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
